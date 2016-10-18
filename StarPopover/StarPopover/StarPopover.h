@@ -98,7 +98,7 @@ typedef NS_ENUM(NSUInteger, StarPopoverMaskType) {
 /**
  *  弹出点与箭头的间隔
  */
-@property (nonatomic, assign) CGFloat betweenAtViewAndArrowHeight;
+@property (nonatomic, assign) CGFloat betweenAtViewAndArrowSpace;
 
 
 /**

@@ -50,7 +50,7 @@
         self.animationSpring = true;
         self.sideEdge = 10.0;
         self.maskType = StarPopoverMaskTypeBlack;
-        self.betweenAtViewAndArrowHeight = 4.0;
+        self.betweenAtViewAndArrowSpace = 4.0;
         self.applyShadow = true;
     }
     return self;
@@ -120,12 +120,12 @@ withContentViewController:(UIViewController *)viewController {
    withContentView:(UIView *)contentView
             inView:(UIView *)containerView {
     
-    CGFloat betweenArrowAndAtView = self.betweenAtViewAndArrowHeight;
+    CGFloat betweenAtViewAndArrow = self.betweenAtViewAndArrowSpace;
     CGFloat contentViewHeight = CGRectGetHeight(contentView.bounds);
-    CGRect atViewFrame = [containerView convertRect:atView.frame toView:containerView];
+    CGRect atViewFrame = [atView convertRect:CGRectMake(0, 0, atView.frame.size.width, atView.frame.size.height) toView:containerView];
     
-    BOOL upCanContain = CGRectGetMinY(atViewFrame) >= contentViewHeight + betweenArrowAndAtView;
-    BOOL downCanContain = (CGRectGetHeight(containerView.bounds) - (CGRectGetMaxY(atViewFrame)+betweenArrowAndAtView)) >= contentViewHeight;
+    BOOL upCanContain = CGRectGetMinY(atViewFrame) >= contentViewHeight + betweenAtViewAndArrow;
+    BOOL downCanContain = (CGRectGetHeight(containerView.bounds) - (CGRectGetMaxY(atViewFrame)+betweenAtViewAndArrow)) >= contentViewHeight;
     NSAssert((upCanContain || downCanContain), @"StarPopover no place for the popover show, check atView frame %@ check contentView bounds %@ and containerView's bounds %@", NSStringFromCGRect(atViewFrame), NSStringFromCGRect(contentView.bounds), NSStringFromCGRect(containerView.bounds));
     
     
@@ -133,11 +133,11 @@ withContentViewController:(UIViewController *)viewController {
     StarPopoverPosition dxP;
     if (upCanContain) {
         dxP = StarPopoverPositionUp;
-        atPoint.y = CGRectGetMinY(atViewFrame) - betweenArrowAndAtView;
+        atPoint.y = CGRectGetMinY(atViewFrame) - betweenAtViewAndArrow;
     }
     else {
         dxP = StarPopoverPositionDown;
-        atPoint.y = CGRectGetMaxY(atViewFrame) + betweenArrowAndAtView;
+        atPoint.y = CGRectGetMaxY(atViewFrame) + betweenAtViewAndArrow;
     }
     
     if (upCanContain && downCanContain) {
@@ -150,11 +150,11 @@ withContentViewController:(UIViewController *)viewController {
         }
         if (useUp) {
             dxP = StarPopoverPositionUp;
-            atPoint.y = CGRectGetMinY(atViewFrame) - betweenArrowAndAtView;
+            atPoint.y = CGRectGetMinY(atViewFrame) - betweenAtViewAndArrow;
         }
         else {
             dxP = StarPopoverPositionDown;
-            atPoint.y = CGRectGetMaxY(atViewFrame) + betweenArrowAndAtView;
+            atPoint.y = CGRectGetMaxY(atViewFrame) + betweenAtViewAndArrow;
         }
     }
     

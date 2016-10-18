@@ -43,7 +43,7 @@
     controller.currentSelectedIndex = -1;
     controller.preferredContentSize = CGSizeMake(100, 40 * titles.count);
     controller.delegate = self;
-    self.popover.betweenAtViewAndArrowHeight = 30;
+    self.popover.betweenAtViewAndArrowSpace = 7;
     [self.popover showAtBarButtonItem:sender withContentViewController:controller];
 }
 
