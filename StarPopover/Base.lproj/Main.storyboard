@@ -22,7 +22,7 @@
                                 <frame key="frameInset" minY="20" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Title" id="gy7-qy-pNB">
+                                    <navigationItem title="StarPopover" id="gy7-qy-pNB">
                                         <barButtonItem key="rightBarButtonItem" title="弹出" id="SGS-Np-lTu">
                                             <connections>
                                                 <action selector="handleBarButtonItemPop:" destination="BYZ-38-t0r" id="Vrq-2D-flm"/>

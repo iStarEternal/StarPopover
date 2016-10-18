@@ -55,7 +55,7 @@ typedef NS_ENUM(NSUInteger, StarPopoverMaskType) {
 @property (nonatomic, strong) UIControl *blackOverlay;
 
 /**
- *  弹出方向 以后支持位运算，多面弹出
+ *  弹出方向 以后支持或多面弹出
  */
 @property (nonatomic, assign, readonly) StarPopoverPosition popoverPosition;
 

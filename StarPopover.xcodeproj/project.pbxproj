@@ -15,7 +15,7 @@
 		F80F22951DB5C18F0020E6D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80F22931DB5C18F0020E6D5 /* LaunchScreen.storyboard */; };
 		F80F229F1DB5C1A00020E6D5 /* StarPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F229E1DB5C1A00020E6D5 /* StarPopover.m */; };
 		F80F22A51DB5DAFA0020E6D5 /* StarPopoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22A21DB5DAFA0020E6D5 /* StarPopoverCell.m */; };
-		F80F22A61DB5DAFA0020E6D5 /* WexPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22A41DB5DAFA0020E6D5 /* WexPopoverViewController.m */; };
+		F80F22A61DB5DAFA0020E6D5 /* StarPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22A41DB5DAFA0020E6D5 /* StarPopoverViewController.m */; };
 		F80F22CA1DB5DBF20020E6D5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22A91DB5DBF20020E6D5 /* MASCompositeConstraint.m */; };
 		F80F22CB1DB5DBF20020E6D5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22AC1DB5DBF20020E6D5 /* MASConstraint.m */; };
 		F80F22CC1DB5DBF20020E6D5 /* MASConstraintMaker+Forbearance.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22AE1DB5DBF20020E6D5 /* MASConstraintMaker+Forbearance.m */; };
@@ -31,18 +31,7 @@
 		F80F22D61DB5DBF20020E6D5 /* UIView+Forbearance.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22C41DB5DBF20020E6D5 /* UIView+Forbearance.m */; };
 		F80F22D71DB5DBF20020E6D5 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22C61DB5DBF20020E6D5 /* View+MASAdditions.m */; };
 		F80F22D81DB5DBF20020E6D5 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22C91DB5DBF20020E6D5 /* ViewController+MASAdditions.m */; };
-		F80F22F51DB5DCBF0020E6D5 /* LogCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22DD1DB5DCBF0020E6D5 /* LogCategory.m */; };
-		F80F22F61DB5DCBF0020E6D5 /* NSArray+Suger.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22DF1DB5DCBF0020E6D5 /* NSArray+Suger.m */; };
-		F80F22F71DB5DCBF0020E6D5 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22E11DB5DCBF0020E6D5 /* NSDate+Extension.m */; };
-		F80F22F81DB5DCBF0020E6D5 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22E31DB5DCBF0020E6D5 /* NSString+Extension.m */; };
-		F80F22F91DB5DCBF0020E6D5 /* NSString+Money.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22E51DB5DCBF0020E6D5 /* NSString+Money.m */; };
-		F80F22FA1DB5DCBF0020E6D5 /* NSURL+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22E71DB5DCBF0020E6D5 /* NSURL+Extensions.m */; };
-		F80F22FB1DB5DCBF0020E6D5 /* Remarks.txt in Resources */ = {isa = PBXBuildFile; fileRef = F80F22E81DB5DCBF0020E6D5 /* Remarks.txt */; };
-		F80F22FC1DB5DCBF0020E6D5 /* UIButton+ImageTitleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22EC1DB5DCBF0020E6D5 /* UIButton+ImageTitleStyle.m */; };
-		F80F22FD1DB5DCBF0020E6D5 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22EE1DB5DCBF0020E6D5 /* UIColor+Extension.m */; };
-		F80F22FE1DB5DCBF0020E6D5 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22F01DB5DCBF0020E6D5 /* UIImage+Extensions.m */; };
-		F80F22FF1DB5DCBF0020E6D5 /* UIScrollView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22F21DB5DCBF0020E6D5 /* UIScrollView+Extensions.m */; };
-		F80F23001DB5DCBF0020E6D5 /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F22F41DB5DCBF0020E6D5 /* UIView+Extensions.m */; };
+		F83A157D1DB5E794003E528F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F83A157C1DB5E794003E528F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,7 +50,7 @@
 		F80F22A11DB5DAFA0020E6D5 /* StarPopoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarPopoverCell.h; sourceTree = "<group>"; };
 		F80F22A21DB5DAFA0020E6D5 /* StarPopoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarPopoverCell.m; sourceTree = "<group>"; };
 		F80F22A31DB5DAFA0020E6D5 /* StarPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarPopoverViewController.h; sourceTree = "<group>"; };
-		F80F22A41DB5DAFA0020E6D5 /* WexPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WexPopoverViewController.m; sourceTree = "<group>"; };
+		F80F22A41DB5DAFA0020E6D5 /* StarPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarPopoverViewController.m; sourceTree = "<group>"; };
 		F80F22A81DB5DBF20020E6D5 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		F80F22A91DB5DBF20020E6D5 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		F80F22AA1DB5DBF20020E6D5 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -96,30 +85,7 @@
 		F80F22C71DB5DBF20020E6D5 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		F80F22C81DB5DBF20020E6D5 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		F80F22C91DB5DBF20020E6D5 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		F80F22DC1DB5DCBF0020E6D5 /* LogCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogCategory.h; sourceTree = "<group>"; };
-		F80F22DD1DB5DCBF0020E6D5 /* LogCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogCategory.m; sourceTree = "<group>"; };
-		F80F22DE1DB5DCBF0020E6D5 /* NSArray+Suger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Suger.h"; sourceTree = "<group>"; };
-		F80F22DF1DB5DCBF0020E6D5 /* NSArray+Suger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Suger.m"; sourceTree = "<group>"; };
-		F80F22E01DB5DCBF0020E6D5 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
-		F80F22E11DB5DCBF0020E6D5 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
-		F80F22E21DB5DCBF0020E6D5 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
-		F80F22E31DB5DCBF0020E6D5 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
-		F80F22E41DB5DCBF0020E6D5 /* NSString+Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Money.h"; sourceTree = "<group>"; };
-		F80F22E51DB5DCBF0020E6D5 /* NSString+Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Money.m"; sourceTree = "<group>"; };
-		F80F22E61DB5DCBF0020E6D5 /* NSURL+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extensions.h"; sourceTree = "<group>"; };
-		F80F22E71DB5DCBF0020E6D5 /* NSURL+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extensions.m"; sourceTree = "<group>"; };
-		F80F22E81DB5DCBF0020E6D5 /* Remarks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Remarks.txt; sourceTree = "<group>"; };
-		F80F22E91DB5DCBF0020E6D5 /* StarExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarExtension.h; sourceTree = "<group>"; };
-		F80F22EB1DB5DCBF0020E6D5 /* UIButton+ImageTitleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleStyle.h"; sourceTree = "<group>"; };
-		F80F22EC1DB5DCBF0020E6D5 /* UIButton+ImageTitleStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleStyle.m"; sourceTree = "<group>"; };
-		F80F22ED1DB5DCBF0020E6D5 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
-		F80F22EE1DB5DCBF0020E6D5 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
-		F80F22EF1DB5DCBF0020E6D5 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
-		F80F22F01DB5DCBF0020E6D5 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
-		F80F22F11DB5DCBF0020E6D5 /* UIScrollView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Extensions.h"; sourceTree = "<group>"; };
-		F80F22F21DB5DCBF0020E6D5 /* UIScrollView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Extensions.m"; sourceTree = "<group>"; };
-		F80F22F31DB5DCBF0020E6D5 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
-		F80F22F41DB5DCBF0020E6D5 /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		F83A157C1DB5E794003E528F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +102,7 @@
 		F80F22791DB5C18F0020E6D5 = {
 			isa = PBXGroup;
 			children = (
+				F83A157C1DB5E794003E528F /* README.md */,
 				F80F22841DB5C18F0020E6D5 /* StarPopover */,
 				F80F22831DB5C18F0020E6D5 /* Products */,
 			);
@@ -152,7 +119,6 @@
 		F80F22841DB5C18F0020E6D5 /* StarPopover */ = {
 			isa = PBXGroup;
 			children = (
-				F80F22D91DB5DCBF0020E6D5 /* StarExtension */,
 				F80F22A71DB5DBF20020E6D5 /* Masonry */,
 				F80F229C1DB5C1A00020E6D5 /* StarPopover */,
 				F80F22881DB5C18F0020E6D5 /* AppDelegate.h */,
@@ -192,7 +158,7 @@
 				F80F22A11DB5DAFA0020E6D5 /* StarPopoverCell.h */,
 				F80F22A21DB5DAFA0020E6D5 /* StarPopoverCell.m */,
 				F80F22A31DB5DAFA0020E6D5 /* StarPopoverViewController.h */,
-				F80F22A41DB5DAFA0020E6D5 /* WexPopoverViewController.m */,
+				F80F22A41DB5DAFA0020E6D5 /* StarPopoverViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -236,61 +202,6 @@
 				F80F22C91DB5DBF20020E6D5 /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
-			sourceTree = "<group>";
-		};
-		F80F22D91DB5DCBF0020E6D5 /* StarExtension */ = {
-			isa = PBXGroup;
-			children = (
-				F80F22DA1DB5DCBF0020E6D5 /* Foundation */,
-				F80F22E81DB5DCBF0020E6D5 /* Remarks.txt */,
-				F80F22E91DB5DCBF0020E6D5 /* StarExtension.h */,
-				F80F22EA1DB5DCBF0020E6D5 /* UIKit */,
-			);
-			path = StarExtension;
-			sourceTree = "<group>";
-		};
-		F80F22DA1DB5DCBF0020E6D5 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				F80F22DB1DB5DCBF0020E6D5 /* LogCategory */,
-				F80F22DE1DB5DCBF0020E6D5 /* NSArray+Suger.h */,
-				F80F22DF1DB5DCBF0020E6D5 /* NSArray+Suger.m */,
-				F80F22E01DB5DCBF0020E6D5 /* NSDate+Extension.h */,
-				F80F22E11DB5DCBF0020E6D5 /* NSDate+Extension.m */,
-				F80F22E21DB5DCBF0020E6D5 /* NSString+Extension.h */,
-				F80F22E31DB5DCBF0020E6D5 /* NSString+Extension.m */,
-				F80F22E41DB5DCBF0020E6D5 /* NSString+Money.h */,
-				F80F22E51DB5DCBF0020E6D5 /* NSString+Money.m */,
-				F80F22E61DB5DCBF0020E6D5 /* NSURL+Extensions.h */,
-				F80F22E71DB5DCBF0020E6D5 /* NSURL+Extensions.m */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		F80F22DB1DB5DCBF0020E6D5 /* LogCategory */ = {
-			isa = PBXGroup;
-			children = (
-				F80F22DC1DB5DCBF0020E6D5 /* LogCategory.h */,
-				F80F22DD1DB5DCBF0020E6D5 /* LogCategory.m */,
-			);
-			path = LogCategory;
-			sourceTree = "<group>";
-		};
-		F80F22EA1DB5DCBF0020E6D5 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				F80F22EB1DB5DCBF0020E6D5 /* UIButton+ImageTitleStyle.h */,
-				F80F22EC1DB5DCBF0020E6D5 /* UIButton+ImageTitleStyle.m */,
-				F80F22ED1DB5DCBF0020E6D5 /* UIColor+Extension.h */,
-				F80F22EE1DB5DCBF0020E6D5 /* UIColor+Extension.m */,
-				F80F22EF1DB5DCBF0020E6D5 /* UIImage+Extensions.h */,
-				F80F22F01DB5DCBF0020E6D5 /* UIImage+Extensions.m */,
-				F80F22F11DB5DCBF0020E6D5 /* UIScrollView+Extensions.h */,
-				F80F22F21DB5DCBF0020E6D5 /* UIScrollView+Extensions.m */,
-				F80F22F31DB5DCBF0020E6D5 /* UIView+Extensions.h */,
-				F80F22F41DB5DCBF0020E6D5 /* UIView+Extensions.m */,
-			);
-			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,7 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F80F22951DB5C18F0020E6D5 /* LaunchScreen.storyboard in Resources */,
-				F80F22FB1DB5DCBF0020E6D5 /* Remarks.txt in Resources */,
 				F80F22921DB5C18F0020E6D5 /* Assets.xcassets in Resources */,
 				F80F22D51DB5DBF20020E6D5 /* Remarks.txt in Resources */,
 				F80F22901DB5C18F0020E6D5 /* Main.storyboard in Resources */,
@@ -369,33 +279,23 @@
 				F80F22D71DB5DBF20020E6D5 /* View+MASAdditions.m in Sources */,
 				F80F22CC1DB5DBF20020E6D5 /* MASConstraintMaker+Forbearance.m in Sources */,
 				F80F22D31DB5DBF20020E6D5 /* NSArray+Sudoku.m in Sources */,
-				F80F22FD1DB5DCBF0020E6D5 /* UIColor+Extension.m in Sources */,
+				F83A157D1DB5E794003E528F /* README.md in Sources */,
 				F80F22CD1DB5DBF20020E6D5 /* MASConstraintMaker.m in Sources */,
 				F80F22D21DB5DBF20020E6D5 /* NSArray+MASAdditions.m in Sources */,
 				F80F22CB1DB5DBF20020E6D5 /* MASConstraint.m in Sources */,
 				F80F22D81DB5DBF20020E6D5 /* ViewController+MASAdditions.m in Sources */,
-				F80F22F81DB5DCBF0020E6D5 /* NSString+Extension.m in Sources */,
-				F80F22FA1DB5DCBF0020E6D5 /* NSURL+Extensions.m in Sources */,
-				F80F23001DB5DCBF0020E6D5 /* UIView+Extensions.m in Sources */,
 				F80F228D1DB5C18F0020E6D5 /* ViewController.m in Sources */,
 				F80F22CF1DB5DBF20020E6D5 /* MASLayoutConstraint.m in Sources */,
-				F80F22FC1DB5DCBF0020E6D5 /* UIButton+ImageTitleStyle.m in Sources */,
 				F80F22A51DB5DAFA0020E6D5 /* StarPopoverCell.m in Sources */,
-				F80F22F71DB5DCBF0020E6D5 /* NSDate+Extension.m in Sources */,
 				F80F22CE1DB5DBF20020E6D5 /* MASForbearance.m in Sources */,
 				F80F229F1DB5C1A00020E6D5 /* StarPopover.m in Sources */,
 				F80F22CA1DB5DBF20020E6D5 /* MASCompositeConstraint.m in Sources */,
-				F80F22F61DB5DCBF0020E6D5 /* NSArray+Suger.m in Sources */,
-				F80F22A61DB5DAFA0020E6D5 /* WexPopoverViewController.m in Sources */,
-				F80F22FE1DB5DCBF0020E6D5 /* UIImage+Extensions.m in Sources */,
-				F80F22FF1DB5DCBF0020E6D5 /* UIScrollView+Extensions.m in Sources */,
+				F80F22A61DB5DAFA0020E6D5 /* StarPopoverViewController.m in Sources */,
 				F80F228A1DB5C18F0020E6D5 /* AppDelegate.m in Sources */,
 				F80F22D61DB5DBF20020E6D5 /* UIView+Forbearance.m in Sources */,
 				F80F22D41DB5DBF20020E6D5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				F80F22F51DB5DCBF0020E6D5 /* LogCategory.m in Sources */,
 				F80F22D11DB5DBF20020E6D5 /* MASViewConstraint.m in Sources */,
 				F80F22871DB5C18F0020E6D5 /* main.m in Sources */,
-				F80F22F91DB5DCBF0020E6D5 /* NSString+Money.m in Sources */,
 				F80F22D01DB5DBF20020E6D5 /* MASViewAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,6 +451,7 @@
 				F80F229B1DB5C18F0020E6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
