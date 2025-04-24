@@ -43,8 +43,9 @@
     controller.currentSelectedIndex = -1;
     controller.preferredContentSize = CGSizeMake(100, 40 * titles.count);
     controller.delegate = self;
-    self.popover.betweenAtViewAndArrowSpace = 7;
-    [self.popover showAtBarButtonItem:sender withContentViewController:controller];
+    
+    StarPopover.shared.betweenAtViewAndArrowSpace = 7;
+    [StarPopover.shared showAtBarButtonItem:sender withContentViewController:controller];
 }
 
 - (IBAction)handleRightPop:(UIButton *)sender {
@@ -76,15 +77,15 @@
     controller.preferredContentSize = CGSizeMake(100, 40 * titles.count);
     controller.delegate = self;
     
-    [self.popover showAtPoint:point
-               popoverPostion:position
-    withContentViewController:controller
-                       inView:[UIApplication sharedApplication].keyWindow];
+    [StarPopover.shared showAtPoint:point
+                     popoverPostion:position
+          withContentViewController:controller
+                             inView:[UIApplication sharedApplication].keyWindow];
 }
 
 
 - (void)popoverViewController:(StarPopoverViewController *)viewController didSelectRowAtIndex:(NSInteger)index {
-    [self.popover dismiss];
+    [StarPopover.shared dismiss];
 }
 
 @end

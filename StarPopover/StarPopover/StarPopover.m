@@ -36,6 +36,15 @@
     return [[self alloc] init];
 }
 
++ (instancetype)shared {
+    static StarPopover *instance;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [StarPopover popover];
+    });
+    return instance;
+}
+
 - (instancetype)init {
     return [self initWithFrame:CGRectZero];
 }
@@ -54,6 +63,11 @@
         self.applyShadow = true;
     }
     return self;
+}
+
+- (void)dealloc
+{
+    NSLog(@"Popover Dealloc");
 }
 
 
@@ -207,7 +221,7 @@ withContentViewController:(UIViewController *)viewController {
     if (_applyShadow) {
         self.layer.shadowColor = [UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:0.9].CGColor;
         self.layer.shadowOffset = CGSizeMake(0, 2);
-        self.layer.shadowOpacity = 0.5;
+        self.layer.shadowOpacity = 0.2;
         self.layer.shadowRadius = 2.0;
     }
     else {

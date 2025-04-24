@@ -44,6 +44,8 @@ typedef NS_ENUM(NSUInteger, StarPopoverMaskType) {
 
 + (instancetype)popover;
 
++ (instancetype)shared;
+
 /**
  *  Popover代理
  */

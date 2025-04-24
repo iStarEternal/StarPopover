@@ -37,6 +37,10 @@
     return self;
 }
 
+- (void)dealloc {
+    NSLog(@"StarPopoverViewController Dealloc");
+}
+
 
 #pragma mark - 生命周期
 
