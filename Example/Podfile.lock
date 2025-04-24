@@ -1,0 +1,16 @@
+PODS:
+  - StarPopover (0.1.0)
+
+DEPENDENCIES:
+  - StarPopover (from `../`)
+
+EXTERNAL SOURCES:
+  StarPopover:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StarPopover: f11bab7a27724174e39585f01100ed9ec2877027
+
+PODFILE CHECKSUM: 03b3e48dd68f6f31f7212f6ac91045c4c4005446
+
+COCOAPODS: 1.16.2
