@@ -27,3 +27,6 @@ hyh, 576681253@qq.com
 ## License
 
 StarPopover is available under the MIT license. See the LICENSE file for more info.
+
+![Smaller icon](https://github.com/iStarEternal/StarPopover/blob/master/starpopover_img.png "Case Diagram")
+
