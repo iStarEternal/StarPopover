@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2MO-2W-Ik3">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="cnf-ex-lca">
+            <objects>
+                <viewController id="iNu-rR-ugL" customClass="OCViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7UF-UZ-JC6"/>
+                        <viewControllerLayoutGuide type="bottom" id="7wD-Hh-rFG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cgB-mq-2rB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q6x-ce-rCx">
+                                <rect key="frame" x="0.0" y="769" width="393" height="49"/>
+                                <items>
+                                    <barButtonItem title="Hahahah" id="7Fa-GJ-f6n">
+                                        <connections>
+                                            <action selector="handleBarButtonItemPop:" destination="iNu-rR-ugL" id="0Cb-eJ-4SK"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2hT-Zf-RfF"/>
+                                    <barButtonItem title="Item" id="Q1Q-uG-rHW">
+                                        <connections>
+                                            <action selector="handleBarButtonItemPop:" destination="iNu-rR-ugL" id="Zxe-es-Yie"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QRJ-R9-EKI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Q6x-ce-rCx" firstAttribute="centerX" secondItem="cgB-mq-2rB" secondAttribute="centerX" id="X5t-kx-236"/>
+                            <constraint firstItem="7wD-Hh-rFG" firstAttribute="top" secondItem="Q6x-ce-rCx" secondAttribute="bottom" id="gdN-YS-v2V"/>
+                            <constraint firstItem="Q6x-ce-rCx" firstAttribute="leading" secondItem="cgB-mq-2rB" secondAttribute="leadingMargin" constant="-16" id="t7l-MJ-veV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bWI-Ev-jFC">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="vPF-nd-zPq">
+                            <connections>
+                                <action selector="handleBarButtonItemPop:" destination="iNu-rR-ugL" id="30X-Px-kWC"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="pause" id="HjT-5g-3UT">
+                            <connections>
+                                <action selector="handleBarButtonItemPop:" destination="iNu-rR-ugL" id="JqJ-Us-xbE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ib-KJ-Djv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-97" y="-63"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0p8-mg-pW8">
+            <objects>
+                <navigationController id="2MO-2W-Ik3" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EBD-qB-8Vc">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="iNu-rR-ugL" kind="relationship" relationship="rootViewController" id="dZN-gq-vZi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dj0-u2-bjg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1164" y="-62"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

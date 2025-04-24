@@ -6,17 +6,17 @@
 //  Copyright © 2016年 星星. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "StarPopover.h"
-#import "StarPopoverViewController.h"
+#import "OCViewController.h"
+#import <StarPopover/StarPopover.h>
+#import <StarPopover/StarPopoverViewController.h>
 
-@interface ViewController () <StarPopoverViewControllerDelegate>
+@interface OCViewController () <StarPopoverViewControllerDelegate>
 {}
 @property (nonatomic, strong) StarPopover *popover;
 
 @end
 
-@implementation ViewController
+@implementation OCViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -10,11 +10,12 @@
 		204306A78D606855D49425BE /* Pods_StarPopover_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFCF08A89C8617A09FF16F3 /* Pods_StarPopover_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		ACB364EF6DE45E4A5D45B7B2 /* Pods_StarPopover_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54270F8AEB4C47D36C515E7 /* Pods_StarPopover_Example.framework */; };
+		D27E4B732DB9F5BA009DBC15 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27E4B722DB9F5BA009DBC15 /* OCViewController.m */; };
+		D27E4B762DB9FC90009DBC15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27E4B752DB9FC90009DBC15 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B61F1D343439E6B69B1C75D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2B61F1D343439E6B69B1C75D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3429FF1F8240DE3F830476E8 /* Pods-StarPopover_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPopover_Tests.release.xcconfig"; path = "Target Support Files/Pods-StarPopover_Tests/Pods-StarPopover_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3CF262747F850A6C26CB31B7 /* Pods-StarPopover_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPopover_Example.release.xcconfig"; path = "Target Support Files/Pods-StarPopover_Example/Pods-StarPopover_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5DFCF08A89C8617A09FF16F3 /* Pods_StarPopover_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarPopover_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,7 +37,6 @@
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* StarPopover_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarPopover_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +45,12 @@
 		6A07B58DE55EFEF7E801E930 /* Pods-StarPopover_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPopover_Example.debug.xcconfig"; path = "Target Support Files/Pods-StarPopover_Example/Pods-StarPopover_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6E5836E9C56E4AF5A6622593 /* Pods-StarPopover_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPopover_Tests.debug.xcconfig"; path = "Target Support Files/Pods-StarPopover_Tests/Pods-StarPopover_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B54270F8AEB4C47D36C515E7 /* Pods_StarPopover_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarPopover_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8AE1D104FCAFB8267696478 /* StarPopover.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = StarPopover.podspec; path = ../StarPopover.podspec; sourceTree = "<group>"; };
-		E51599E913DD1630DD181C0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D27E4B712DB9F5BA009DBC15 /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		D27E4B722DB9F5BA009DBC15 /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		D27E4B742DB9F5BC009DBC15 /* StarPopover_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarPopover_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		D27E4B752DB9FC90009DBC15 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D8AE1D104FCAFB8267696478 /* StarPopover.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StarPopover.podspec; path = ../StarPopover.podspec; sourceTree = "<group>"; };
+		E51599E913DD1630DD181C0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +90,6 @@
 				6E5836E9C56E4AF5A6622593 /* Pods-StarPopover_Tests.debug.xcconfig */,
 				3429FF1F8240DE3F830476E8 /* Pods-StarPopover_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,12 +117,15 @@
 		607FACD21AFB9204008FA782 /* Example for StarPopover */ = {
 			isa = PBXGroup;
 			children = (
+				D27E4B712DB9F5BA009DBC15 /* OCViewController.h */,
+				D27E4B722DB9F5BA009DBC15 /* OCViewController.m */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				D27E4B742DB9F5BC009DBC15 /* StarPopover_Example-Bridging-Header.h */,
+				D27E4B752DB9FC90009DBC15 /* Main.storyboard */,
 			);
 			name = "Example for StarPopover";
 			path = StarPopover;
@@ -213,10 +219,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 76BA555MU3;
+						LastSwiftMigration = 1620;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 76BA555MU3;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,9 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				D27E4B762DB9FC90009DBC15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,10 +300,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-StarPopover_Example/Pods-StarPopover_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/StarPopover/StarPopover.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarPopover.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27E4B732DB9F5BA009DBC15 /* OCViewController.m in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -355,14 +367,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -478,11 +482,16 @@
 			baseConfigurationReference = 6A07B58DE55EFEF7E801E930 /* Pods-StarPopover_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 76BA555MU3;
 				INFOPLIST_FILE = StarPopover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StarPopover/StarPopover_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,11 +502,15 @@
 			baseConfigurationReference = 3CF262747F850A6C26CB31B7 /* Pods-StarPopover_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 76BA555MU3;
 				INFOPLIST_FILE = StarPopover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StarPopover/StarPopover_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -507,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E5836E9C56E4AF5A6622593 /* Pods-StarPopover_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 76BA555MU3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,6 +530,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,11 +544,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3429FF1F8240DE3F830476E8 /* Pods-StarPopover_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 76BA555MU3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

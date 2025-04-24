@@ -7,7 +7,7 @@
 //
 
 #import "StarPopoverCell.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 
 @interface StarPopoverCell ()
 {}
@@ -75,10 +75,10 @@
     _separatorEdgeInset = UIEdgeInsetsMake(0, 15, 0, 0);
     
     [self.wex_separator mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.separatorEdgeInset.left);
-        make.right.equalTo(-self.separatorEdgeInset.right);
-        make.bottom.equalTo(-self.separatorEdgeInset.bottom);
-        make.height.equalTo(0.5).priorityHigh();
+        make.left.mas_equalTo(self.separatorEdgeInset.left);
+        make.right.mas_equalTo(-self.separatorEdgeInset.right);
+        make.bottom.mas_equalTo(-self.separatorEdgeInset.bottom);
+        make.height.mas_equalTo(0.5).priorityHigh();
     }];
     
     self.separatorHidden = true;
@@ -87,14 +87,14 @@
 - (void)wex_layoutConstraints {
     
     [self.iconView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(15);
-        make.centerY.equalTo(0);
-        make.size.equalTo(CGSizeMake(30, 30));
+        make.left.mas_equalTo(15);
+        make.centerY.mas_equalTo(0);
+        make.size.mas_equalTo(CGSizeMake(30, 30));
     }];
     
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(15);
-        make.centerY.equalTo(0);
+        make.left.mas_equalTo(15);
+        make.centerY.mas_equalTo(0);
     }];
 }
 
@@ -108,15 +108,15 @@
     
     self.iconView.hidden = icon == nil;
     if (icon) {
-        [self.titleLabel updateConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(self.iconView).equalTo(8);
+        [self.titleLabel mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(self.iconView).mas_equalTo(8);
             make.centerY.equalTo(0);
         }];
     }
     else {
-        [self.titleLabel updateConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(15);
-            make.centerY.equalTo(0);
+        [self.titleLabel mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(15);
+            make.centerY.mas_equalTo(0);
         }];
     }
 }
@@ -136,10 +136,10 @@
 
 - (void)setSeparatorEdgeInset:(UIEdgeInsets)separatorEdgeInset {
     _separatorEdgeInset = separatorEdgeInset;
-    [self.wex_separator updateConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(separatorEdgeInset.left);
-        make.right.equalTo(-separatorEdgeInset.right);
-        make.bottom.equalTo(-separatorEdgeInset.bottom);
+    [self.wex_separator mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(separatorEdgeInset.left);
+        make.right.mas_equalTo(-separatorEdgeInset.right);
+        make.bottom.mas_equalTo(-separatorEdgeInset.bottom);
     }];
 }
 

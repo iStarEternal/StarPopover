@@ -71,9 +71,9 @@
         label.font = [UIFont systemFontOfSize:13];
         label.text = self.title;
         [view addSubview:label];
-        [label makeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(15);
-            make.bottom.equalTo(-4);
+        [label mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(15);
+            make.bottom.mas_equalTo(-4);
         }];
     }
 }
