@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'StarPopover_Example' do
+  pod 'StarPopover', :path => '../'
+
+  target 'StarPopover_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
